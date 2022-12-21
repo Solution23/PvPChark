@@ -15,4 +15,14 @@ wn.tracer(0)
 
 cabeza = turtle.Turtle()
 cabeza.speed(0)
+cabeza.shape("square")
+cabeza.penup()
+cabeza.goto(0,0)
+cabeza.direction = "stop"
+
+while True:
+    wn.update()
+
+    
+
 
