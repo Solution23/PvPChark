@@ -15,3 +15,4 @@ wn.tracer(0)
 
 cabeza = turtle.Turtle()
 cabeza.speed(0)
+

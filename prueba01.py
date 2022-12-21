@@ -1,10 +1,8 @@
-import turtle
+import turtle 
 
-disparo = turtle.Turtle()
+wn = turtle.Screen()
+wn.title("juego de pong")
+wn.bgcolor("black")
+wn.setup(width= 600, height= 600)
+wn.tracer(0)
 
-pluma.speed(30)
-
-for i in rango(0.4):
-    
-    disparo.forward(100)
-    disparo.left(90)
