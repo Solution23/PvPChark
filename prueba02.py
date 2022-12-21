@@ -18,11 +18,15 @@ cabeza.speed(0)
 cabeza.shape("square")
 cabeza.penup()
 cabeza.goto(0,0)
-cabeza.direction = "stop"
+cabeza.direction = "up"
+
+def mov():
+    if cabeza.direction == "up":
+        y = cabeza.ycor()
+        cabeza.sety(y + 20)
 
 while True:
     wn.update()
 
-    
-
+    mov()
 
