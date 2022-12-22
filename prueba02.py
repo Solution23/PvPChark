@@ -1,6 +1,6 @@
 import turtle
 import time
-import ramdom
+import random
 
 posponer = 0.1
 
@@ -15,3 +15,4 @@ wn.tracer(0)
 
 cabeza = turtle.Turtle()
 cabeza.speed(0)
+
