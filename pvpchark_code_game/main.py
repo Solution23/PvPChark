@@ -8,8 +8,8 @@ imagen_de_fondo = pygame.transform.scale(img, (width,height))
 
 
 def background(imagen_de_fondo):
+    pantalla.blit((imagen_de_fondo), (0,0))
     pygame.display.flip()
-    pygame.display.update
 
 while True:
     for eventos in pygame.event.get():
